@@ -1,0 +1,41 @@
+{
+  "synthetic-media": {
+    "id": "synthetic-media",
+    "name": "Synthetic Media & Declarations",
+    "purpose": "Neutral recording of declarations relating to AI-assisted, synthetic, or composite digital artefacts without classification or judgement.",
+    "non_claims": "Does not detect, classify, validate, or assess synthetic media, nor provide authenticity judgements.",
+    "page": "synthetic-media.html"
+  },
+
+  "autoevidence": {
+    "id": "autoevidence",
+    "name": "AutoEvidence",
+    "purpose": "Structured evidentiary intake and chronological recording for compliance, dispute readiness, and institutional documentation workflows.",
+    "non_claims": "Does not determine admissibility, truth, or legal sufficiency of recorded evidence.",
+    "page": "autoevidence.html"
+  },
+
+  "evidexia": {
+    "id": "evidexia",
+    "name": "Evidexia",
+    "purpose": "Vertical-specific compliance and documentation workflows built on the TrustOrigin neutral registry infrastructure.",
+    "non_claims": "Does not certify compliance, issue regulatory determinations, or replace professional judgement.",
+    "page": "evidexia.html"
+  },
+
+  "escrow": {
+    "id": "escrow",
+    "name": "Neutral Escrow Ledger",
+    "purpose": "Chronological custody and declarative escrow without adjudication.",
+    "non_claims": "Does not certify, enforce outcomes, adjudicate disputes, or provide legal judgement.",
+    "page": "escrow.html"
+  },
+
+  "research": {
+    "id": "research",
+    "name": "Research & Academic Registry",
+    "purpose": "Chronological registration of research artefacts, methodologies, datasets, and declarations for academic and public-interest use.",
+    "non_claims": "Does not peer-review, validate findings, or assess scientific merit.",
+    "page": "research.html"
+  }
+}

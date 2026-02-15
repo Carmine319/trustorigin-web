@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Institutional Pilot Access — TrustOrigin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Request and activate a time-limited institutional pilot for the TrustOrigin neutral registry infrastructure.">
+
+  <style>
+    body{
+      margin:0;
+      font-family:Georgia,"Times New Roman",serif;
+      color:#111;
+      background:#fff
+    }
+    header{
+      border-bottom:1px solid #cfcfcf;
+      position:sticky;
+      top:0;
+      background:#fff;
+      z-index:1000
+    }
+    nav{
+      max-width:1200px;
+      margin:0 auto;
+      padding:18px 20px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center
+    }
+    nav a{
+      color:#003366;
+      text-decoration:none;
+      margin-left:20px;
+      font-size:15px
+    }
+    nav select{
+      margin-left:20px;
+      font-family:Georgia,"Times New Roman",serif
+    }
+    main{
+      max-width:900px;
+      margin:0 auto;
+      padding:90px 20px 80px
+    }
+    h1{
+      font-size:42px;
+      margin-bottom:30px
+    }
+    p{
+      font-size:18px;
+      line-height:1.7;
+      margin-bottom:22px
+    }
+    .box{
+      border:1px solid #cfcfcf;
+      padding:25px;
+      margin:40px 0
+    }
+    label{
+      display:block;
+      margin-top:22px;
+      font-size:16px
+    }
+    input{
+      width:100%;
+      padding:10px;
+      font-size:16px;
+      margin-top:6px
+    }
+    button{
+      margin-top:30px;
+      padding:14px 26px;
+      font-size:16px;
+      background:#fff;
+      border:1px solid #003366;
+      color:#003366;
+      cursor:pointer
+    }
+    footer{
+      border-top:1px solid #cfcfcf;
+      padding:70px 20px;
+      text-align:center;
+      font-size:15px;
+      background:#fff
+    }
+    footer a{
+      color:#003366;
+      text-decoration:none
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- CANONICAL HEADER -->
+<header>
+  <nav>
+    <strong>TrustOrigin</strong>
+    <div>
+      <a href="index.html">TrustOrigin Core</a>
+      <a href="verticals.html">Verticals</a>
+      <a href="cloud.html">Cloud Access Layer</a>
+      <a href="licensing.html">Licensing</a>
+      <a href="governance.html">Governance</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="pilot.html">Pilot Access</a>
+      <select aria-label="Language selector">
+        <option selected>EN</option>
+        <option>FR</option>
+        <option>DE</option>
+        <option>IT</option>
+        <option>ES</option>
+      </select>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <h1>Institutional Pilot Access</h1>
+
+  <p>
+    TrustOrigin offers a limited, evaluation-only institutional pilot providing
+    supervised access to its neutral registry infrastructure.
+  </p>
+
+  <p>
+    The pilot is designed to enable assessment of suitability, governance alignment,
+    and operational fit prior to any licensing discussion.
+  </p>
+
+  <div class="box">
+    <p><strong>Pilot Conditions</strong></p>
+
+    <p>
+      Pilot access is time-limited to a maximum of thirty (30) days and operates in
+      a human-gated, operator-mediated mode.
+    </p>
+
+    <p>
+      Automated execution, cloud-based processing, APIs, and continuous operation
+      are not enabled during the pilot phase.
+    </p>
+
+    <p>
+      Participation in the pilot requires a neutral public attribution or citation
+      acknowledging evaluation or use of the TrustOrigin infrastructure.
+    </p>
+  </div>
+
+  <form method="POST" action="activate-pilot.php">
+    <label>
+      Institution Name
+      <input type="text" name="institution" required>
+    </label>
+
+    <label>
+      Institutional Contact Email
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Pilot Access Code
+      <input type="text" name="pilot_code" required>
+    </label>
+
+    <button type="submit">Request Pilot Activation</button>
+  </form>
+
+  <p class="box">
+    Pilot access does not constitute a licence, entitlement, or contractual commitment.
+    Continued use beyond the pilot period requires execution of a licensing agreement.
+  </p>
+
+</main>
+
+<!-- CANONICAL FOOTER -->
+<footer>
+  <p>Contact: <a href="mailto:contact@trustorigin.org">contact@trustorigin.org</a></p>
+
+  <p>
+    Documentation:
+    <a href="governance.html">Governance</a> ·
+    <a href="language-governance.html">Language Governance</a> ·
+    <a href="non-claims.html">Non-Claims Boundary</a> ·
+    <a href="trust-receipts.html">Trust Receipts</a> ·
+    <a href="ledger.html">Ledger</a> ·
+    <a href="rfcs.html">RFCs</a> ·
+    <a href="annexes.html">Annexes</a> ·
+    <a href="disaster-recovery.html">Disaster Recovery</a> ·
+    <a href="commercial-licensing.html">Commercial & Licensing Framework</a>
+  </p>
+
+  <p>TrustOrigin is a neutral technical recording infrastructure.</p>
+
+  <p>
+    TrustOrigin is operated by <strong>Oriagen AI Ltd</strong>, a company registered
+    in England and Wales. Oriagen AI Ltd provides technical operation and maintenance
+    only and does not verify, validate, certify, adjudicate, or assess any registered
+    artefact, declaration, or record.
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "registry_version": "1.0",
+  "governance_mode": "operator-mediated",
+  "non_claims_boundary": true,
+  "last_updated_utc": "2026-01-21T00:00:00Z",
+  "pilots": [
+    {
+      "pilot_id": "PILOT-UK-UNI-0001",
+      "organisation_name": "Example University",
+      "department_scope": [
+        "Research Office",
+        "Digital Governance Unit"
+      ],
+      "primary_contact": {
+        "name": "Dr Jane Smith",
+        "email": "j.smith@example.ac.uk"
+      },
+      "activation_date_utc": "2026-01-10T09:00:00Z",
+      "expiry_date_utc": "2026-02-09T23:59:59Z",
+      "day_21_reminder_date_utc": "2026-01-31T09:00:00Z",
+      "pilot_status": "active",
+      "cloud_access": false,
+      "automated_execution": false,
+      "licensing_discussion_initiated": false,
+      "citation_commitment": true,
+      "notes": "Pilot granted under evaluation-only terms. No production reliance permitted."
+    }
+  ]
+}
