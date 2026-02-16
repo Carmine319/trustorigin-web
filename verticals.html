@@ -1,185 +1,170 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-  <meta charset="UTF-8">
-  <title>TrustOrigin Verticals</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta name="description" content="Modular registry interfaces built on the TrustOrigin neutral registry core.">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      color: #111;
-      background: #ffffff;
-    }
-
-    header {
-      border-bottom: 1px solid #cfcfcf;
-      background: #ffffff;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    nav {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 18px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav a {
-      color: #003366;
-      text-decoration: none;
-      margin-left: 20px;
-      font-size: 15px;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 70px 20px;
-    }
-
-    h1 {
-      font-size: 44px;
-      margin-bottom: 18px;
-    }
-
-    h2 {
-      font-size: 28px;
-      margin-top: 40px;
-      margin-bottom: 8px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.65;
-      margin-bottom: 12px;
-    }
-
-    .nonclaims {
-      font-style: italic;
-      color: #555;
-      margin-bottom: 14px;
-    }
-
-    .vertical {
-      padding-bottom: 30px;
-      border-bottom: 1px solid #e0e0e0;
-    }
-
-    .vertical a {
-      font-size: 16px;
-      color: #003366;
-      text-decoration: none;
-    }
-
-    footer {
-      border-top: 1px solid #cfcfcf;
-      margin-top: 80px;
-      padding: 30px 20px;
-      text-align: center;
-      font-size: 14px;
-      color: #555;
-      background: #ffffff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustOrigin Verticals | Modular Governance Interfaces</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
 
 <header>
-  <nav>
-    <strong>TrustOrigin</strong>
-    <div>
-      <a href="index.html">TrustOrigin Core</a>
-      <a href="verticals.html">Verticals</a>
-      <a href="governance.html">Governance</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="pilot.html">Pilot Access</a>
-    </div>
-  </nav>
+    <nav>
+        <div><strong>TrustOrigin</strong></div>
+        <div>
+            <a href="index.html">TrustOrigin Core</a>
+            <a href="verticals.html">Verticals</a>
+            <a href="governance.html">Governance</a>
+            <a href="trust-receipts.html">Trust Receipts</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="pilot.html">Pilot Access</a>
+        </div>
+    </nav>
 </header>
 
-<main>
+<div class="container">
 
-  <h1>TrustOrigin Verticals</h1>
+    <h1>TrustOrigin Verticals</h1>
 
-  <p>
-    TrustOrigin verticals are modular infrastructure interfaces built on a single,
-    neutral registry core. Each vertical defines a workflow layer without introducing
-    validation, authority, or adjudication.
-  </p>
-
-  <div class="vertical">
-    <h2>Synthetic Media & Declarations</h2>
     <p>
-      Neutral recording of declarations relating to AI-assisted, synthetic, or composite
-      digital artefacts.
+        TrustOrigin verticals are modular declarative governance interfaces built upon a single neutral registry core.
+        Each vertical defines a contextual application layer without introducing validation authority, adjudication,
+        certification, or regulatory judgement.
     </p>
-    <p class="nonclaims">
-      Does not detect, classify, validate, or assess synthetic media, nor provide
-      authenticity judgements.
-    </p>
-    <a href="synthetic-media.html">View vertical →</a>
-  </div>
 
-  <div class="vertical">
-    <h2>AutoEvidence</h2>
     <p>
-      Structured evidentiary intake and chronological recording for compliance,
-      dispute readiness, and institutional documentation workflows.
+        All vertical implementations operate within the same structural boundaries:
+        declarative recording only, time anchoring, version control, and cryptographic integrity preservation.
     </p>
-    <p class="nonclaims">
-      Does not determine admissibility, truth, or legal sufficiency of recorded evidence.
-    </p>
-    <a href="autoevidence.html">View vertical →</a>
-  </div>
 
-  <div class="vertical">
-    <h2>Evidexia</h2>
+    <hr>
+
+    <h2>Synthetic Media & AI Declarations</h2>
+
     <p>
-      Vertical-specific documentation and compliance-support workflows built on the
-      TrustOrigin neutral registry infrastructure.
+        Structured recording of declarations relating to AI-assisted, synthetic, or composite digital artefacts.
+        This vertical enables organisations to document the contextual parameters surrounding AI system usage.
     </p>
-    <p class="nonclaims">
-      Does not certify compliance or issue regulatory determinations.
-    </p>
-    <a href="evidexia.html">View vertical →</a>
-  </div>
 
-  <div class="vertical">
-    <h2>Neutral Escrow Ledger</h2>
+    <ul>
+        <li>Model identification and version reference</li>
+        <li>Hosting and infrastructure provider disclosure</li>
+        <li>Declared training data category</li>
+        <li>Human oversight posture statement</li>
+        <li>Synthetic output designation</li>
+        <li>Jurisdictional scope reference</li>
+    </ul>
+
     <p>
-      Chronological custody and declarative escrow recording without adjudication.
+        This vertical does not detect, classify, verify, or authenticate content.
+        It records structured institutional declarations.
     </p>
-    <p class="nonclaims">
-      Does not certify outcomes, enforce conditions, or provide legal judgement.
-    </p>
-    <a href="escrow.html">View vertical →</a>
-  </div>
 
-  <div class="vertical">
-    <h2>Research & Academic Registry</h2>
+    <hr>
+
+    <h2>AutoEvidence – Structured Evidentiary Intake</h2>
+
     <p>
-      Neutral registration of research artefacts, datasets, methodologies,
-      and academic declarations.
+        Chronological declarative recording framework for compliance documentation,
+        dispute readiness, audit preparation, and institutional continuity structuring.
     </p>
-    <p class="nonclaims">
-      Does not peer-review, validate findings, or assess scientific merit.
-    </p>
-    <a href="research.html">View vertical →</a>
-  </div>
 
-</main>
+    <ul>
+        <li>Evidence reference identifiers</li>
+        <li>Time-anchored submission logging</li>
+        <li>Declared contextual scope</li>
+        <li>Hash-based artefact reference integrity</li>
+        <li>Version lineage mapping</li>
+    </ul>
+
+    <p>
+        This vertical does not assess admissibility, truth, or legal sufficiency.
+        It preserves declared existence and structure.
+    </p>
+
+    <hr>
+
+    <h2>Vendor Dependency & Exit-Readiness Documentation</h2>
+
+    <p>
+        Structured declarations relating to external infrastructure reliance,
+        cloud service exposure, API dependency chains, and third-party AI integration.
+    </p>
+
+    <ul>
+        <li>Primary vendor identification</li>
+        <li>Service layer categorisation</li>
+        <li>Declared migration readiness posture</li>
+        <li>Data portability statement</li>
+        <li>Continuity documentation linkage</li>
+    </ul>
+
+    <p>
+        This vertical does not execute migrations, enforce portability,
+        or evaluate contractual obligations.
+        It records declared institutional posture at a defined moment in time.
+    </p>
+
+    <hr>
+
+    <h2>Artefact Lifecycle Governance</h2>
+
+    <p>
+        Declarative tracking of digital artefact evolution across versions,
+        including structured temporal lineage mapping.
+    </p>
+
+    <ul>
+        <li>Initial declaration reference</li>
+        <li>Successive version identifiers</li>
+        <li>Hash continuity mapping</li>
+        <li>Freeze event documentation</li>
+        <li>Immutable historical preservation</li>
+    </ul>
+
+    <p>
+        This vertical supports institutional documentation discipline
+        without introducing certification authority.
+    </p>
+
+    <hr>
+
+    <h2>Cloud Access Layer (Future Institutional Deployment)</h2>
+
+    <p>
+        Controlled enterprise access interfaces may be provisioned for structured deployment,
+        including private registry partitions and institutional access segregation.
+    </p>
+
+    <p>
+        Cloud-based automation, APIs, and continuous execution are not enabled
+        during pilot phase evaluation.
+    </p>
+
+    <hr>
+
+    <h2>Commercial Deployment Framework</h2>
+
+    <p>
+        Vertical implementations may be licensed individually or as bundled governance infrastructure packages.
+        Licensing structures are defined separately within the commercial framework.
+    </p>
+
+    <p>
+        <a href="pricing.html"><strong>View Commercial Structure →</strong></a>
+    </p>
+
+</div>
 
 <footer>
-  © TrustOrigin — Neutral registry infrastructure. No validation. No adjudication.
+    <p>
+        TrustOrigin is a neutral technical recording infrastructure.
+    </p>
+    <p>
+        Operated by Oriagen AI Ltd, England and Wales, in a technical maintenance capacity only.
+        Oriagen AI Ltd does not verify, validate, certify, adjudicate, or assess any registered artefact, declaration, or record.
+    </p>
 </footer>
 
 </body>
